@@ -1,0 +1,10 @@
+h1 {
+    color: blue;    
+}
+
+.inputbox {
+    width: 200px;
+    height: 200px;
+    border: solid;
+}
+
