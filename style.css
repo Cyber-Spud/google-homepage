@@ -46,7 +46,7 @@ a:hover, a:active {
     padding-bottom: 16px;
 }
 
-.top {
+.tops {
     height: 200px;
     border-style:;
 }
@@ -282,6 +282,41 @@ a:hover, a:active {
 .icon13 {
     background-image: url('icon2.png');
     background-position: 0 -1518px;
+}
+
+.top {
+    display: none;
+    height: 136px;
+    width: 280px;
+    margin: 20px;
+}
+
+.dropdown:hover .top {
+    display: inline-block;
+}
+
+.dropdown:hover .details {
+    display: inline-block;
+}
+
+.bigicon {
+    display: inline-block;
+    width: 96px;
+    height: 96px;
+    margin-right: 20px;
+    background-image: url('bigicon.jpg');
+    border-radius: 50%;
+}
+
+.details {
+    width: 159px;
+    height: 96px;
+    background-color: rgb(199, 194, 194);
+    margin-bottom: auto;
+    vertical-align: top;
+}
+
+.details div {
 }
 
 /* Important?? background-size: 64px 2410px; */
